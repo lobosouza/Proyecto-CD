@@ -10,3 +10,8 @@
 6. 
 
   Propuesta de Proyecto:
+Se propone una aplicación para un Kiosco que contenga los datos de:
+1. Producto
+2. Precio
+3. Stock
+   
