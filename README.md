@@ -3,8 +3,8 @@
 
    Integrantes:
 1. Bruno Lobo Souza, 95690709, lobosouza.it@gmail.com, https://github.com/lobosouza
-2. Marián Chazarreta, 37509774, marianchazarreta@hotmail.com, https://github.com/marianuvita
-3. 
+2. Direni Carlos, 28117281, direnicarlos1@gmail.com, https://github.com/Cdireni1
+3. Marián Chazarreta, 37509774, marianchazarreta@hotmail.com, https://github.com/marianuvita
 4. 
 5. 
 6. 
