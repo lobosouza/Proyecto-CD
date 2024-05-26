@@ -6,8 +6,7 @@
 2. Marián Chazarreta, 37509774, marianchazarreta@hotmail.com, https://github.com/marianuvita
 3. Carlos Direni, 28117281, direnicarlos1@gmail.com, https://github.com/Cdireni1
 4. Federico Cruceño, 39623298, fedecrucenio@gmail.com, https://github.com/federicocruceno
-5. 
-6. 
+
 
   Propuesta de Proyecto:
 Se propone una aplicación para un Kiosco con el siguiente menú de acceso para Crear, Leer, Actualizar y Borrar los siguientes datos: 
