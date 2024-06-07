@@ -3,10 +3,14 @@
 
    Integrantes:
 1. Bruno Lobo Souza, 95690709, lobosouza.it@gmail.com, https://github.com/lobosouza
-2. 
-3. 
-4. 
-5. 
-6. 
+2. Marián Chazarreta, 37509774, marianchazarreta@hotmail.com, https://github.com/marianuvita
+3. Carlos Direni, 28117281, direnicarlos1@gmail.com, https://github.com/Cdireni1
+4. Federico Cruceño, 39623298, fedecrucenio@gmail.com, https://github.com/federicocruceno
+
 
   Propuesta de Proyecto:
+Se propone una aplicación para un Kiosco con el siguiente menú de acceso para Crear, Leer, Actualizar y Borrar los siguientes datos: 
+1. Productos
+2. Ventas
+3. Proveedor
+4. Clientes
