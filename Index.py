@@ -1,3 +1,5 @@
+
+
 def menuPrincipal():
     print("---------------------------------------------------------------")
     print("** Menu Principal **")
@@ -14,16 +16,18 @@ def menuPrincipal():
         print("Opción incorrecta, ingrese nuevamente...")
         menuPrincipal()
     elif opc == 1:
-        print("1. Productos")
+        print("Productos")
+        menu_productos()
     elif opc == 2:
-        print("2. Ventas")
+        print("Ventas")
     elif opc == 3:
-        print("3. Proveedor")    
+        print("Proveedor")    
     elif opc == 4:
-        print("4. Clientes")
+        print("Clientes")
     elif opc==5:
         print("Gracias por utilizar nuestro sistema!")
     
-        
+
+    
 
 menuPrincipal()
