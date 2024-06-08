@@ -1,7 +1,4 @@
-''' Cuando se ingrese a la opción "1" del menu Productos 
-se abren las opciones para Crear, Leer, Actualizar y Eliminar Productos. 
-Para eso, se crea una función para invocar en el menu. 
-Entonces, cuando se ingrese a la opción 1, se invoca la siguiente función:'''
+''' Según la opción elegida en el menu Productos se eligirá alguna de las siguientes funciones'''
 
 
     
