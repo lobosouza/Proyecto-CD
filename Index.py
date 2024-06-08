@@ -12,6 +12,7 @@ def menuPrincipal():
     
     if opc <1 or opc>5:
         print("Opción incorrecta, ingrese nuevamente...")
+        menuPrincipal()
     elif opc == 1:
         print("1. Productos")
     elif opc == 2:
@@ -22,11 +23,7 @@ def menuPrincipal():
         print("4. Clientes")
     elif opc==5:
         print("Gracias por utilizar nuestro sistema!")
-    else:
-        ejecutaropc(opc)
-        
-def ejecutaropc(opc):
-    print("opcion")
+    
         
 
 menuPrincipal()
