@@ -6,25 +6,14 @@ Entonces, cuando se ingrese a la opción 1, se invoca la siguiente función:'''
 
     
 def ver_producto():
-    print("Ingrese id del producto: ")
-#invocar id del producto de la tabla "productos"
+    print("1. Ver Producto")
    
 def agregar_producto():
-    producto = input("Ingrese el nombre del producto: ")
-    print(f"{producto} fue agregrado exitosamente!")
-# agregar producto a la tabla "productos" 
-   
-          
+   print("2. Agregar Producto")
+    
 def actualizar_producto():
-    print("1. Actualizar el precio de compra del producto,")
-    print("2 Actualizar el precio de venta del producto")
-    print("3. Actualizar el nombre del producto")
-    print(int(input("ingrese una opción: ")))
-#invocar funcion según lo elegido
-    print("El producto fue actualizado exitosamente")
-
+    print("3. Actualizar Producto")
+    
 def eliminar_producto():
-    print(int(input("Ingrese Id del producto a ser eliminado: ")))
-#eliminar producto de la tabla
-    print("El producto fue eliminado exitosamente")
+    print("4. Eliminar Producto")
 
