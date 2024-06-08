@@ -7,7 +7,7 @@ def menu_productos():
     print("3. Actualizar producto")
     print("4. Eliminar producto")
     menu = input("ingrese una opción: ")
-#invocar función según la opción elegida While True: If - Elif - break
+
 
 menu_productos()
    
