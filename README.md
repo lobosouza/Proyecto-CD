@@ -11,7 +11,7 @@
 
   Propuesta de Proyecto:
   
-Se propone una aplicación para un Kiosco que registra la provición, venta y compra dentro del negocio. Está diseñado usando pseudocódigo PSEint, lenguaje Python, y base de datos con MySQL.
+Se propone una aplicación para un Kiosco que registra la provición, venta y compra dentro del negocio, así como datos de los clientes. Está diseñado usando pseudocódigo PSEint, lenguaje Python, y base de datos con MySQL.
 La aplicación está ubicada en la carpeta "App", y posee un Menú Principal "index.py" para acceder a Crear, Leer, Actualizar y Eliminar los siguientes datos: 
 1. Productos (nombre, precio de compra, nombre de venta, stock, ID)
 2. Ventas (fecha, precio total, ID)
