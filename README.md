@@ -12,7 +12,7 @@
   Propuesta de Proyecto:
   
 Se propone una aplicación para un Kiosco que registra la provición, venta y compra dentro del negocio. Está diseñado usando pseudocódigo PSEint, lenguaje Python, y base de datos con MySQL.
-La aplicación posee un Menú Principal de acceso para Crear, Leer, Actualizar y Eliminar los siguientes datos: 
+La aplicación está ubicada en la carpeta "App", y posee un Menú Principal "index.py" para acceder a Crear, Leer, Actualizar y Eliminar los siguientes datos: 
 1. Productos (nombre, precio de compra, nombre de venta, stock, ID)
 2. Ventas (fecha, precio total, ID)
 3. Proveedor (nombre, mail, teléfono, dirección, ID)
@@ -28,20 +28,20 @@ Este Menú Principal importa las funciones de los siguientes módulos:
 1. ModuloProductos
 Se compone de los siguientes módulos:
 - CRUD_Productos: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del producto.
-- menu_Productos: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Productos.
+- menuProductos: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Productos.
 
 2. ModuloVentas
 Se compone de los siguientes módulos:
-- CRUDventas: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos de venta.
+- CRUD_Ventas: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos de venta.
 - menuVentas: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUDventas.
 
 3. ModuloProveedor
 Se compone de los siguientes módulos:
-- CRUDproveedor: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del proveedor.
+- CRUD_Proveedor: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del proveedor.
 - menuProveedor: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUDproveedor.
 
 4. ModuloClientes
 Se compone de los siguientes módulos:
-- CRUDclientes: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del cliente.
+- CRUD_Clientes: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del cliente.
 - menuClientes: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUDclientes.
 

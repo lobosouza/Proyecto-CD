@@ -1,6 +1,8 @@
 ''' Cuando se ingrese a la opción "1" del menu principal
 se abre el menu de productos:'''
 
+import CRUD_Productos
+
 def menu_productos():
     print("1. Ver productos")
     print("2. Crear producto")
@@ -13,16 +15,20 @@ def menu_productos():
         print("Opción incorrecta, ingrese nuevamente...")
         menu_productos()
     elif menu == 1:
-        print("Ver Productos")
+        CRUD_Productos.ver_producto()
+        #print("Ver Productos")
     elif menu == 2:
-        print("Crear Producto")
+        CRUD_Productos.agregar_producto()
+        #print("Crear Producto")
     elif menu == 3:
-        print("Actualizar Producto")    
+        CRUD_Productos.actualizar_producto()
+        #print("Actualizar Producto")    
     elif menu == 4:
-        print("Eliminar Producto")
+        CRUD_Productos.eliminar_producto()
+        #print("Eliminar Producto")
     elif menu ==5:
         print("Gracias por utilizar nuestro sistema!")
 
 
-menu_productos()
+#menu_productos()
    

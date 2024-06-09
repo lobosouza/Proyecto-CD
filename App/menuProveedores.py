@@ -28,4 +28,4 @@ def menuProveedores():
     elif menu == 5:
         print("Gracias por utilizar nuestros servicios.")
 
-menuProveedores()
+#menuProveedores()
