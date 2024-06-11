@@ -6,12 +6,10 @@
 1. Bruno Lobo Souza, 95690709, lobosouza.it@gmail.com, https://github.com/lobosouza
 2. Marián Chazarreta, 37509774, marianchazarreta@hotmail.com, https://github.com/marianuvita
 3. Carlos Direni, 28117281, direnicarlos1@gmail.com, https://github.com/Cdireni1
-4. Federico Cruceño, 39623298, fedecrucenio@gmail.com, https://github.com/federicocruceno
-
 
   Propuesta de Proyecto:
   
-Se propone una aplicación para un Kiosco que registra la provición, venta y compra dentro del negocio, así como datos de los clientes. Está diseñado usando pseudocódigo PSEint, lenguaje Python, y base de datos con MySQL.
+Se propone una aplicación para un Market que registra la provición, venta y compra dentro del negocio, así como datos de los clientes. Está diseñado usando pseudocódigo PSEint, lenguaje Python, y base de datos con MySQL.
 La aplicación está ubicada en la carpeta "App", y posee un Menú Principal "index.py" para acceder a Crear, Leer, Actualizar y Eliminar los siguientes datos: 
 1. Productos (nombre, precio de compra, nombre de venta, stock, ID)
 2. Ventas (fecha, precio total, ID)
