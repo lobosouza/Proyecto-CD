@@ -1,4 +1,4 @@
-# Al ingresar la opción 3. del menú principal, se abre el menú de Proveedores.
+# Al ingresar la opción 6. del menú principal, se abre el menú de Proveedores.
 # Este menú permite elegir las opciones de crear, ver, modificar o eliminar los datos del proveedor.
 # Para ello, se importará el CRUD de proveedores y se usarán sus funciones, acorde a la elección del usuario.
 
