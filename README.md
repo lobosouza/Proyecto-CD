@@ -16,6 +16,14 @@ La aplicación está ubicada en la carpeta "App", y posee un Menú Principal "in
 3. Proveedor (nombre, mail, teléfono, dirección, ID)
 4. Clientes (nombre, mail, teléfono, dirección, DNI)
 
+  Requisitos:
+
+- mySQL Workbench 8.0
+- Visual Studio Code
+- Instalar extensiones en Visual Studio: Python Path, MySQL management tool, Database manager for MySQL
+- Descargar las carpertas 'App' y 'BD' 
+ 
+
   Detalle de la aplicación modularizada:
   
 - Index
@@ -31,15 +39,30 @@ Se compone de los siguientes módulos:
 2. ModuloVentas
 Se compone de los siguientes módulos:
 - CRUD_Ventas: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos de venta.
-- menuVentas: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUDventas.
+- menuVentas: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Ventas.
 
-3. ModuloProveedor
+3. ModuloDetalle_Ventas
+Se compone de los siguientes módulos:
+- CRUD_Detalle_Ventas: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del detalle de ventas.
+- menuDetalle_Ventas: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Detalle_Ventas.
+
+4. ModuloProveedor
 Se compone de los siguientes módulos:
 - CRUD_Proveedor: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del proveedor.
-- menuProveedor: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUDproveedor.
+- menuProveedor: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Proveedor.
+
+5. ModuloCompras
+Se compone de los siguientes módulos:
+- CRUD_Compras: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos de compras.
+- menuCompras: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Compras.
+
+6. ModuloDetalle_Compras
+Se compone de los siguientes módulos:
+- CRUD_Detalle_Compras: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del detalle de compras.
+- menuDetalle_Compras: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Detalle_Compras.
 
 4. ModuloClientes
 Se compone de los siguientes módulos:
 - CRUD_Clientes: se definen las funciones para Crear, Ver, Actualizar y Eliminar los datos del cliente.
-- menuClientes: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUDclientes.
+- menuClientes: presenta las opciones disponibles al usuario y le permite elegir la acción deseada, importando para ello las funciones de CRUD_Clientes.
 
