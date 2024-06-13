@@ -8,24 +8,36 @@ def ver_producto():
 
    
 def agregar_producto():
-   print("2. Agregar Producto")
-   conn = conexion() 
-   cursor = conn.cursor()
+    print("2. Agregar Producto")
+    conn = conexion() 
+    cursor = conn.cursor()
 
+    # Solicitar información del producto
+    Nombre_Producto = input("Ingrese nombre: ")
+    Precio_Venta = float(input("Ingrese precio de venta: "))
+    Precio_Compra = float(input("Ingrese precio de compra: "))
+    Cantidad_Stock = int(input("Ingrese la cantidad del producto: "))
+    Descripcion = input("Ingrese descripcion del producto: ")
 
-   Nombre_Producto = input("Ingrese nombre: ")
-   Precio_Venta = float(input("Ingrese precio de venta: "))
-   Precio_Compra = float(input("Ingrese precio de compra: "))
-   Cantidad_Stock = int(input("Ingrese la cantidad del producto: "))
-   Descripcion = input("Ingrese descripcion del producto: ")
+    # Consulta SQL para insertar el producto
+    sql = """
+    INSERT INTO productos 
+    (Nombre_Producto, Precio_Venta, Precio_Compra, Cantidad_Stock, Descripcion) 
+    VALUES (%s, %s, %s, %s, %s);
+    """
 
-  # sql = "INSERT INTO Productos (ID_Producto, Nombre_Producto, Precio_Venta, Precio_Compra, Cantidad_Stock, Descripcion) VALUES ('null,%s,%s,%s,%s,%s');"
-   valores = (Nombre_Producto, Precio_Venta, Precio_Compra, Cantidad_Stock, Descripcion)
-   # cursor.execute(sql,valores)
-   cursor.execute(f"INSERT INTO Productos (Nombre_Producto, Precio_Venta, Precio_Compra, Cantidad_Stock, Descripcion) VALUES ({valores})")
-   conn.commit()
-   print(cursor.rowcount, "Producto Agregado")
-   conn.close()
+    # Valores a insertar
+    valores = (Nombre_Producto, Precio_Venta, Precio_Compra, Cantidad_Stock, Descripcion)
+
+    # Ejecutar la consulta
+    cursor.execute(sql, valores)
+
+    # Confirmar los cambios en la base de datos
+    conn.commit()
+    print(cursor.rowcount, "Producto Agregado")
+
+    # Cerrar la conexión
+    conn.close()
    
   
    
