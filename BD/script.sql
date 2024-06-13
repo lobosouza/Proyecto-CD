@@ -129,13 +129,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Detalle_Ventas` (
   `ID_Producto` INT NOT NULL,
   `Cantidad` INT NOT NULL CHECK (`Cantidad` > 0),
   PRIMARY KEY (`ID_Detalle_Venta`),
-  INDEX `idProducto_idx` (`ID_Producto` ASC) VISIBLE,
   INDEX `idVenta_idx` (`ID_Venta` ASC) VISIBLE,
-  CONSTRAINT `ID_Producto`
-    FOREIGN KEY (`ID_Producto`)
-    REFERENCES `mydb`.`Productos` (`ID_Producto`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
   CONSTRAINT `ID_Venta`
     FOREIGN KEY (`ID_Venta`)
     REFERENCES `mydb`.`Ventas` (`ID_Venta`)
