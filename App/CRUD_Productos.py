@@ -10,6 +10,9 @@ def ver_producto():
 def agregar_producto():
     print("2. Agregar Producto")
     conn = conexion() 
+    if conn is None:
+        print("No se pudo establecer la conexión con la base de datos.")
+        return
     cursor = conn.cursor()
 
     # Solicitar información del producto
