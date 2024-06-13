@@ -1,0 +1,11 @@
+import mysql.connector
+
+def conexion():
+    mysql.connector.connect(user='root', password = 'root', #ingresar en user y password credenciales de la base de datos local
+                                   host='localhost', 
+                                   database='mydb', 
+                                   port='3306')
+
+print(conexion)
+
+conexion()                       
