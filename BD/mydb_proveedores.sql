@@ -29,7 +29,7 @@ CREATE TABLE `proveedores` (
   `Mail` varchar(55) NOT NULL,
   `Telefono` varchar(30) NOT NULL,
   PRIMARY KEY (`ID_Proveedor`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,6 @@ CREATE TABLE `proveedores` (
 
 LOCK TABLES `proveedores` WRITE;
 /*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
-INSERT INTO `proveedores` VALUES (1,'La del Norte','salta 125','azul@gmail.com','324565586'),(2,'Refugio Distrito','Lopez y Planes 3266','refugio@gmail.com','324556895'),(3,'Detodo Srl','Anibal Centeno 589','detodo@gmail.com','351233356');
 /*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-06-14  0:39:55
+-- Dump completed on 2024-06-13 23:48:35
