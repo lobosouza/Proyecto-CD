@@ -27,7 +27,7 @@ La aplicación está ubicada en la carpeta "App", y posee un Menú Principal "in
 - Instalar extensiones en Visual Studio: Python Path, MySQL management tool, Database manager for MySQL
 - Descargar las carpertas 'App' y 'BD'
 - Tener la base de datos cargada localmente a través de MySQL
-- Ingresar usuario y contraseña de base de datos local en el archivo "conexionpy_mysql.py"
+- Ingresar usuario y contraseña de base de datos local en los archivos "conexionpy_mysql.py" y "conexion"
  
 
   Detalle de la aplicación modularizada:
